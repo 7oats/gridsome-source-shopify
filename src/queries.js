@@ -160,6 +160,7 @@ export const PRODUCTS_QUERY = `
             edges {
               node {
                 availableForSale
+                quantityAvailable
                 compareAtPrice: compareAtPriceV2 {
                   amount
                   currencyCode
